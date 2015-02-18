@@ -4,6 +4,10 @@ body {
 	padding: 25px;
 }
 
+li.nico{
+	color: blue;
+}
+
 h1 {
 	color: #FF0000;
 	font-size: 10px;

@@ -1,0 +1,140 @@
+/* The following rule resets the browsers default margin and padding */
+* { margin: 10; padding: 10;}
+
+/*This is a trick to make the body of your page a full width and height*/
+html, body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("http://www.w3.org/Style/Woolly/woolly-mc.png");
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+	width: 300px;
+	padding: 25px;
+	height: 100%;
+	float: left;
+	background: #111;
+	color: #fff;
+}
+
+li{
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+  border-left: 10px;
+}
+
+li.About{
+	color: red;
+	display: inline-block;
+    padding: 1em;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+li.Featured{
+	color: blue;
+	display: inline-block;
+    padding: 1em;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+li.Fan{
+	color: yellow;
+	display: inline-block;
+    padding: 1em;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+li.Opponent{
+	color: green;
+	display: inline-block;
+    padding: 1em;
+    background-color: #000000;
+    text-decoration: none;
+}
+li.Secret{
+	color: white;
+	display: inline-block;
+    padding: 1em;
+/*    background-color: #;*/
+    text-decoration: none;
+}
+
+
+/*HHHHHHHHOVER */
+/*credit to: http://ianlunn.github.io/Hover/*/
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background-color: #ffffff;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/* Rectangle In */
+.hvr-rectangle-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+/*  -moz-osx-font-smoothing: grayscale;*/
+  position: relative;
+  background: #fecb98;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-rectangle-in:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e1e1e1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
+  color: white;
+}
+.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
