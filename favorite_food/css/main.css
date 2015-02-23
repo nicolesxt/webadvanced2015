@@ -1,0 +1,59 @@
+/* General Styles */
+
+* { margin: 0; padding: 4; }
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Sidebar Styles */
+
+.header{
+	background-color: #294A8F;
+	width: 90%;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+.header1{
+	background-color: yellow;
+}
+
+.header2{
+	background-color: red;
+	font-size: 16px;
+}
+
+.header2 li {
+	width: 25%;
+	margin: 0 3.5%;
+	text-align: center;
+	color: #123456;
+	padding-top: 20px;
+
+	display: inline-block;
+	list-style-type: none;
+}
+
+.content {
+	width: 90%;
+	margin-left: 25%;
+	padding-top: 50px;
+	background-color: 
+}
+
+/* Project Styles */
+
+.project {
+	width: 40%;
+	margin-left: 6.5%;
+	margin-bottom: 6.5%;
+	display: inline-block;
+}
+
+.project img {
+	width: 100%;
+	opacity: 1.0;
+	transition: opacity 0.2s;
+}
