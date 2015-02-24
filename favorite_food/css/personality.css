@@ -1,0 +1,87 @@
+/* General Styles */
+
+* { margin: 0; padding: 0; }
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url("http://media3.giphy.com/media/yidUzlbqM0WI7yUdKE/200.gif");
+}
+
+/* Sidebar Styles */
+
+.sidebar {
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	background-color: #294A8F;
+	background-color: yellow;
+}
+
+.sidebar__container {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.sidebar__container img {
+	width: 100%;
+}
+
+.sidebar__container p{
+	margin: 10; padding: 10;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	font-family: Arial Black;
+	color: #123456;
+}
+
+.sidebar__back {
+	color: red;
+	margin: 10; padding: 10;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	font-family: Arial Black;
+}
+
+
+/* Content Styles */
+
+.content {
+	width: 75%;
+	margin-left: 25%;
+	padding-top: 50px;
+}
+
+/* Project Styles */
+.project{
+	font-family: Arial Black;
+}
+
+.project h3 {
+	width: 100%;
+	margin-left: 6.5%;
+	margin-bottom: 6.5%;
+	display: inline-block;
+	font-size: 30px;
+}
+
+.project p {
+	font-family: Arial;
+	color: #03007a;
+	width: 90%;
+	margin-left: 6.5%;
+	margin-bottom: 6.5%;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.project p:hover{
+	color: #ff7777;
+}
+
+.project:hover{
+	background-color: white;
+	transition: all 0.4s;
+}

@@ -1,0 +1,122 @@
+/* General Styles */
+
+* { margin: 0; padding: 0; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("http://media3.giphy.com/media/yidUzlbqM0WI7yUdKE/200.gif");
+}
+
+/* Sidebar Styles */
+
+.sidebar {
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  background-color: #294A8F;
+  background-color: yellow;
+}
+
+.sidebar__container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.sidebar__container img {
+  width: 100%;
+}
+
+.sidebar__container p{
+  margin: 10; padding: 10;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial Black;
+  color: #123456;
+}
+
+.sidebar__back {
+  color: red;
+  margin: 10; padding: 10;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial Black;
+}
+
+.sidebar__back {
+  color: red;
+  margin: 10; padding: 10;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial Black;
+}
+
+/*
+Credits to Natalie Maclees for the following hover code.
+http://geekgirllife.com/place-text-over-images-on-hover-without-javascript/
+*/
+
+.list{
+  padding: 10px; margin: 10px;
+}
+
+ul.img-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width:75%;
+  margin-left: 25%;
+  padding-top: 50px;
+}
+ 
+ul.img-list li {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  height: 180px;x
+  margin: 5px;
+}
+
+ul.img-list li img{
+  width:100%;
+  height:100%;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 180px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20%;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 180px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+  transition: 0.5s ease-out;
+}
