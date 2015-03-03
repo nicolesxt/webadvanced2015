@@ -15,9 +15,20 @@ body{
 h1.menu{
 	padding:40px;
 	background-color: red;
+	text-align: center;
 }
 
 h2.content{
-	padding-top: 50px;
+	padding: 50px;
 	background-color: yellow;
+	margin: auto;
+	text-align: center;
+}
+
+h2 li{
+	padding: 20px;
+}
+
+.break{
+	padding: 250px;
 }
