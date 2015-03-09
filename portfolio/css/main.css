@@ -1,6 +1,6 @@
-#main{
-	max-width: 600px;
- 	margin: 0 auto;
+*{
+	padding: 0;
+	margin: 0;
 }
 
 html{
@@ -9,26 +9,64 @@ html{
 
 body{
 	background-color: blue;
-	padding:50px;
 }
 
+
+/*Header*/
 h1.menu{
-	padding:40px;
+	/*remember to use margin-top*/
+	margin: 0 40%;
+	padding: 20px 0px;
 	background-color: red;
 	text-align: center;
 }
 
 h2.content{
 	padding: 50px;
-	background-color: yellow;
+	background-color: white;
 	margin: auto;
 	text-align: center;
 }
 
-h2 li{
-	padding: 20px;
+.project{
+	width: 50px;
+	height: 50px;
 }
 
-.break{
-	padding: 250px;
+.aka{
+	margin-top: 50%;
+	margin-left: 10%;
+	background-color: red;
+}
+
+.icecube{
+	margin-top: 150%;
+	margin-left: 90%;
+	background-color: yellow;
+}
+
+.group{
+	margin-top: 200%;
+	margin-left: 50%;
+	background-color: blue;
+}
+
+.trivial{
+	margin-top: 250%;
+	margin-bottom: 100%;
+	margin-left: 30%;
+	background-color: black;
+}
+
+.aka .gif{
+	
+}
+
+
+h3.back{
+	/*remember to use margin-top*/
+	margin: 0 40%;
+	padding: 20px 0px;
+	background-color: red;
+	text-align: center;
 }
