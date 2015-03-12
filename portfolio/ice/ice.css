@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	width: 100%;
+}
+body{
+	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+	width: 100%;
+}
+
+
+h2{
+	/*	background-color: blue;*/
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+.header{
+		background-color: #69FF8E;
+	padding: 5% 2%;
+	text-align: center;
+	transition:0.5s;
+}
+
+.header:hover{
+	color:white;
+	transition:0.5s;
+}
+
+.video{
+	width:80%;
+	margin-top: 8%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.keyword{
+	margin-top: 10%;
+	width: 100%;
+}
+
+.sensor1{
+	float:left;
+	width:30%;
+	height:30%;
+	margin-left: 5%;
+	margin-bottom: 20%;
+}
+
+.sensor2{
+	background-color: yellow;
+	float:left;
+	padding:5% 5%;
+	width:20%;
+	font-size: 100%;
+	text-align: center;
+	height:30%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	transition:0.5s;
+}
+/*
+.sensor3{
+	background-color: #3BEDB8;
+	float:left;
+	padding:5% 5%;
+	width:20%;
+	font-size: 100%;
+	text-align: center;
+	height:30%;
+	margin-right: 10%;
+	transition:0.5s;
+	margin-top: 10%;
+}*/
+
+.sensor3:hover{
+	color:#F72554;
+	transition:0.5s;
+}
+
+
+.sensor2:hover{
+	color:yellow;
+	transition:0.5s;
+}
+
+.sensor4{
+	float:left;
+	width:20%;
+	height:30%;
+	margin-left: 0%;
+	margin-top: 0;
+	opacity: 0;
+	transition:0.5s;
+}
+
+.sensor4:hover{
+	opacity: 1;
+	transition:0.5s;
+}
+
+
+.interaction{
+	clear:both;
+	width:100%;
+}
+
+.interaction1:hover{
+	margin-left: 20%;
+	transition: 0.5s;
+	background-color: #1C594C;
+	color:#FAC8D2;
+}
+
+.interaction1{
+	text-align: center;
+	background-color: #C8FAF0;
+	color:#C8FAF0;
+	width:20%;
+	clear:both;
+	padding:5% 5%;
+	margin:5% 5%;
+	transition:0.5s;
+}
+
+.interaction2{
+	width:30%;
+	margin: 0 1%;
+	float:left;
+	opacity:0;
+	transition:0.5s;
+	margin-bottom: 20%;
+}
+
+.interaction2:hover{
+	opacity:1;
+	transition:0.5s;
+}
+
+.back{
+	clear:both;
+	padding-left: 20px;
+	margin-top: 40%;
+	margin-bottom: 8%;
+	margin-right: 10%;
+}
+
+

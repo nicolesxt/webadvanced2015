@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body html{
+	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+	background-color: white;
+}
+
+.quote{
+	background-color: #EB2A2A;
+	padding: 5% 2%;
+	text-align: center;
+	color:#DBFFF7;
+}
+
+
+.concept{
+/*	background-color: blue;*/
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	transition-duration:0.8s;
+}
+
+.balance{
+	font-size: 20px;
+	color:#36FFDA;
+	padding-top: 10%;
+	padding-left: 60%;
+	width:40%;
+}
+
+.fun{
+	font-size: 11px;
+	color:#FF85A9;
+	padding-top: 5%;
+	padding-left: 1%;
+	width:40%;
+}
+
+.processing{
+	font-size: 30px;
+	color:#0B0340;
+	padding-left: 20%;
+	padding-top: 10%;
+}
+
+.aka{
+	background-color: white;
+	color:white;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 500%;
+}
+
+.aka:hover{
+	transition:all;
+	transition-duration:0.5s;
+}
+
+
+.leap{
+	font-size: 25px;
+	color:#F7F765;
+	padding-left: 10%;
+}
+
+.concept:hover{
+	color: red;
+	transition: all;
+	transition-duration:0.8s;
+}
+
+.video{
+	background-color: black;
+	width: 30%;
+	height: 200px;
+	margin-left: 55%;
+	margin-top: 10%;
+	transition-duration:0.5s;
+}
+
+.video:hover{
+	width:60%;
+	height:300px;
+	margin-left: 35%;
+	transition-duration:0.5s;
+}
+
+.back{
+	padding-left: 20px;
+	margin-top: 20%;
+	margin-bottom: 8%;
+	margin-right: 10%;
+}
