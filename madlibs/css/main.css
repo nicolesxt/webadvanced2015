@@ -1,0 +1,127 @@
+*{padding: 0; margin: 0;}
+
+body{
+	background-image: url("http://media.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif");
+	background-size:100% 100%;
+}
+
+.content{
+	font-family: "Courier New", Gadget, sans-serif;
+}
+
+h1{
+	color:white;
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom:1%;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+h2{
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+	width:98%;
+}
+
+.comment{
+	color:white;
+}
+
+.letter1{
+	text-align: center;
+	font-size: 100%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.letter2{
+	text-align: center;
+	font-size: 100%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.firstA{
+	text-align: center;
+	font-size: 120%;
+	padding: 1% 2%;
+	width: 10%;
+	margin:1% 45%;
+}
+
+.adj1{
+	text-align: center;
+	font-size: 120%;
+	padding: 1% 2%;
+	width: 30%;
+	margin: 1% 35%;
+}
+
+.noun1{
+	text-align: center;
+	width: 28%;
+	margin: 0px 30% 1% 42%;
+	padding: 1% 3%;
+}
+
+.adv{
+	text-align: center;
+	width: 40%;
+	font-size: 110%;
+	margin: 1% 35% 2% 25%;
+	padding: 1% 0px;
+}
+
+.verb{
+	text-align: center;
+	width: 20%;
+	font-size: 120%;
+	margin: 1% 40%;
+	padding:1% 1%;
+}
+
+.secondA{
+	text-align: center;
+	width: 10%;
+	font-size: 100%;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+.adj2{
+	text-align: center;
+	font-size: 100%;
+	width: 35%;
+	margin:1% 30% 1% 35%;
+}
+
+.noun2{
+	margin: 1% 30% 1% 40%;
+	padding: 2% 2%;
+	width: 30%;
+	text-align: center;
+	font-size: 120%;
+}
+
+.juhao{
+	width: 4%;
+
+	text-align: center;
+	font-size: 100%;
+	margin:1% 48%;
+}
+
+.button{
+	font-size: 150%;
+	height: 100%;
+	background-color: #FF99CC;
+	text-align: center;
+	padding: 1% 0%;
+	margin:1% 40%;
+}
+

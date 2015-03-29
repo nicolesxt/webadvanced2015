@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	margin:10px 0;
+}
+
+.box-1{
+	background-color: blue;
+}
+
+.box-2{
+	background-color: green;
+}
+
+.box-3{
+	background-color: red;
+}
+
+.box-4{
+	background-color: yellow;
+}
+
+.paragraph{
+	background-color: #DDCCEE;
+}
+
+
+/*some css can be added to html*/
+.paragraph1{
+
+	width:80%;
+}
+
+.paragraph2{
+	width: 60%;
+}
+
+.paragraph3{
+	width: 40%;
+}
+
+.paragraph4{
+	width: 20%;
+}
+
+.paragraph5{
+	width: 100%;
+}
