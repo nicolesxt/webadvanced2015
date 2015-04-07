@@ -40,7 +40,6 @@ requestAnimationFrame(update);
 
 	doneButton.on('click', function (){
 		boo = 0;
-		console.log(boo);
 	})
 	tiles(0);
 	tiles(1);
@@ -65,16 +64,21 @@ requestAnimationFrame(update);
 
 
 function whichPlayer(){
+	//when orange is playing
 	if( boo < 3 && boo> 1){
 		playerSituation.text('Orange is Playing');
 		$(".title").css("color", "orange");
 	// 	$("h2").css("background-color","red");
 	}
+
+	//when apple is playing
 	if (boo > 3){
 		playerSituation.text('Apple is Playing');
 		$(".title").css("color", "red");
 	// 	$("h2").css("background-color","black");
 	}
+
+	//when no one is playing
 	if (boo < 1){
 		playerSituation.text('Tic-Tac-Toe');
 		$(".title").css("color", "black");
@@ -153,16 +157,19 @@ function win(){
 }
 
 function tiles(numver){
+
 	if(boo < 3 && boo> 1){
 		tile[numver].on('click', function () {
 			tile[numver].text('X');
 			orange[numver] = true;
+			apple[numver] = false;
 		})
 	}
 	if(boo > 3){
 		tile[numver].on('click', function () {
 			tile[numver].text('O');
 			apple[numver] = true;
+			orange[numver] = false;
 		})
 	}
 
