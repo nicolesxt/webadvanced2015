@@ -12,7 +12,7 @@ var juhao = document.querySelector('.juhao');
 
 var _noun1 = ['giraffe','coconut','dolphine','penguine','stone','sheep','pizza','donut','governor','princess','toothbrush','king','watermelon','woman','man','computer','camera','bottle of milk','pig','dog','piece of cake','lazy person','bald head','banana','atom','star','ship'];
 var _noun2 = ['giraffe','coconut','dolphine','penguine','stone','sheep','pizza','donut','governor','princess','toothbrush','king','watermelon','woman','man','computer','camera','bottle of milk','pig','dog','piece of cake','lazy person','bald head','banana','atom','star','ship'];
-var _verb = ['jumps on','watches','eats','drinks','gets','has','acquires','loves','drinks','pulls out','carries','rapes','raises','cooks','poops','complains to','thinks about','is','plays','knocks','kisses','swallows','knocks','inhales','exhales','steps on','sits on','sleeps with'];
+var _verb = ['jumps on','watches','eats','drinks','gets','has','acquires','loves','drinks','pulls out','carries','rapes','raises','cooks','poops out','complains to','thinks about','is','plays','knocks','kisses','swallows','knocks','inhales','exhales','steps on','sits on','sleeps with'];
 var _adv = ['passionately','angrily','fiercely','gently','freely','sorrowly','quickly','slowly','brutally','patiently','happily','seriously','casually'];
 var _adj1 = ['cute','scary','fierce','grey','red','super angry','happy','sad','shaking','work-in-progress','smelly','cented','serious','useless','beautiful','very ugly','skinny','fat','well-made','well-educated','pedantic','pretentious','confusing'];
 var _adj2 = ['cute','scary','fierce','grey','red','super angry','happy','sad','shaking','work-in-progress','smelly','cented','serious','useless','beautiful','very ugly','skinny','fat','well-made','well-educated','pedantic','pretentious','confusing'];
@@ -54,7 +54,7 @@ for(var i = 0; i < 3; i++)
 
 var rgb4 = [];
 for(var i = 0; i < 3; i++)
-    rgb4.push(Math.floor(Math.random()*50+200));
+    rgb4.push(Math.floor(Math.random()*60+180));
 	adv.style.backgroundColor = 'rgb('+ rgb4.join(',') +')';
 
 var rgb5 = [];

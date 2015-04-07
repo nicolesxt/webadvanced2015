@@ -1,0 +1,66 @@
+*{margin:0; padding: 0;}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title{
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 20px;
+}
+
+
+.tictactoe{
+	background: #FFFF66;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 3%;
+}
+
+
+.bla{
+	background-color: #CCCCFF;
+	width: 32.4%;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+	display:inline-block;
+	font-size: 500%;
+}
+
+.orange{
+	background: orange;
+}
+
+.apple{
+	background: red;
+}
+
+.button{
+	font-size: 20px;
+	padding: 3%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:5%;
+	width: 39%;
+	display: inline-block;
+}
+
+.red{
+	background-color: red;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.done{
+	background-color: #FFC2E0;
+	margin-left: 45%;
+	margin-right: 45%;
+	width: 10%;
+}
