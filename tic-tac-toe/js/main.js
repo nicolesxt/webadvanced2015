@@ -1,6 +1,7 @@
 var obutton = $('.orange');
 var abutton = $('.apple');
 var playerSituation = $('.title');
+var tictactoe = $('.tictactoe');
 
 var boo = 0;
 
@@ -68,6 +69,11 @@ function whichPlayer(){
 	if( boo < 3 && boo> 1){
 		playerSituation.text('Orange is Playing');
 		$(".title").css("color", "orange");
+
+		tictactoe.css({
+			'background-color': 'orange' 
+		});
+
 	// 	$("h2").css("background-color","red");
 	}
 
@@ -75,13 +81,20 @@ function whichPlayer(){
 	if (boo > 3){
 		playerSituation.text('Apple is Playing');
 		$(".title").css("color", "red");
-	// 	$("h2").css("background-color","black");
+
+		tictactoe.css({
+			'background-color': 'red' 
+		});
 	}
 
 	//when no one is playing
 	if (boo < 1){
 		playerSituation.text('Tic-Tac-Toe');
 		$(".title").css("color", "black");
+
+		tictactoe.css({
+				'background-color': '#FFFF66' 
+			});
 	}
 }
 
@@ -163,6 +176,7 @@ function tiles(numver){
 			tile[numver].text('X');
 			orange[numver] = true;
 			apple[numver] = false;
+			boo = 4;
 		})
 	}
 	if(boo > 3){
@@ -170,11 +184,12 @@ function tiles(numver){
 			tile[numver].text('O');
 			apple[numver] = true;
 			orange[numver] = false;
+			boo = 2;
 		})
 	}
 
 	if(boo < 2){
-			tile[numver].text('N');
+			tile[numver].text('-');
 			orange[numver] = false;
 			apple[numver] = false;
 	}
