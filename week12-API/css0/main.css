@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0;}
+
+body{
+}
+
+.weather{
+	font-family: 'Rokkitt', serif;
+}
+
+.forecast{
+ 	font-family: 'Sanchez', serif;
+	background-color: white;
+	width: 70%;
+	
+	display: flex;
+	flex-wrap: wrap;
+}
