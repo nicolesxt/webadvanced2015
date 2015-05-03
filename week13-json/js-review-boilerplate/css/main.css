@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; }
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.content {
+	width: 100%;
+}
+
+header {
+	background-color: #3791A6;
+	color: #ffffff;
+	padding: 2rem 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header h1 {
+	font-size: 3.0rem;
+}
+
+header h3 {
+	font-size: 1.5rem;
+}
+
+footer {
+	background-color: #346773;
+	color: #fff;
+	font-size: 0.7rem;
+	padding: 1rem 0;
+	text-align: center;
+	width: 100%;
+}
+
+nav {
+	display: none; /* temporary: we'll change this later */;
+}

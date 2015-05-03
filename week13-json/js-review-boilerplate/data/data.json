@@ -1,0 +1,109 @@
+{
+  "images": [
+    {
+      "title": "Weird cat",
+      "copy": "Aww, look at that cat.",
+      "category": "cat",
+      "img": "cat-01.jpg",
+      "thumb": "cat-01-thumb.jpg"
+    },
+    {
+      "title": "Kittens",
+      "copy": "There are two of them?!",
+      "category": "cat",
+      "img": "cat-02.jpg",
+      "thumb": "cat-02-thumb.jpg"
+    },
+    {
+      "title": "Holy Cat!",
+      "copy": "Just doin' his thing.",
+      "category": "cat",
+      "img": "cat-03.jpg",
+      "thumb": "cat-03-thumb.jpg"
+    },
+    {
+      "title": "Lil Pup",
+      "copy": "Nice toy, dude.",
+      "category": "dog",
+      "img": "dog-01.jpg",
+      "thumb": "dog-01-thumb.jpg"
+    },
+    {
+      "title": "Silly dog",
+      "copy": "What's that rascal dog up to?",
+      "category": "dog",
+      "img": "dog-02.jpg",
+      "thumb": "dog-02-thumb.jpg"
+    },
+    {
+      "title": "Superstar athlete!",
+      "copy": "The Messi of dogs.",
+      "category": "dog",
+      "img": "dog-03.jpg",
+      "thumb": "dog-03-thumb.jpg"
+    },
+    {
+      "title": "Straight chillin'",
+      "copy": "He knows what's up.",
+      "category": "dog",
+      "img": "dog-04.jpg",
+      "thumb": "dog-04-thumb.jpg"
+    },
+    {
+      "title": "Superstar athlete!",
+      "copy": "The Messi of dogs.",
+      "category": "dog",
+      "img": "dog-03.jpg",
+      "thumb": "dog-03-thumb.jpg"
+    },
+    {
+      "title": "Straight chillin'",
+      "copy": "He knows what's up.",
+      "category": "dog",
+      "img": "dog-04.jpg",
+      "thumb": "dog-04-thumb.jpg"
+    },
+    {
+      "title": "Omggg tacos!",
+      "copy": "I would eat all four.",
+      "category": "taco",
+      "img": "taco-01.jpg",
+      "thumb": "taco-01-thumb.jpg"
+    },
+    {
+      "title": "Beauty",
+      "copy": "So gooooooood.",
+      "category": "taco",
+      "img": "taco-02.jpg",
+      "thumb": "taco-02-thumb.jpg"
+    },
+    {
+      "title": "Omggg tacos!",
+      "copy": "I would eat all four.",
+      "category": "taco",
+      "img": "taco-01.jpg",
+      "thumb": "taco-01-thumb.jpg"
+    },
+    {
+      "title": "Beauty",
+      "copy": "So gooooooood.",
+      "category": "taco",
+      "img": "taco-02.jpg",
+      "thumb": "taco-02-thumb.jpg"
+    },
+    {
+      "title": "Cage Wars",
+      "copy": "May the Cage be with you.",
+      "category": "cage",
+      "img": "cage-01.jpg",
+      "thumb": "cage-01-thumb.jpg"
+    },
+    {
+      "title": "Cage on the moon.",
+      "copy": "Our one true god.",
+      "category": "cage",
+      "img": "cage-02.jpg",
+      "thumb": "cage-02-thumb.jpg"
+    }
+  ]
+}

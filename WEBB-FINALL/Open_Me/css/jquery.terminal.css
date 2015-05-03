@@ -22,10 +22,9 @@
     position: fixed;
 }
 .terminal {
-    padding: 10%;
+    padding: 10px;
     position: relative;
     overflow: hidden;
-    text-align: center;
 }
 .cmd {
     padding: 0;
@@ -41,47 +40,47 @@
 }
 @keyframes blink {
   0%, 100% {
-        color: #002952;
-        background-color: #F5AEE2;
+        background-color: #002952;
+        color: #aaa;
   }
   50% {
-        color: #002952; /* not #aaa because it's seem there is Google Chrome bug */
-        background-color: #002952;
+        background-color: #bbb; /* not #aaa because it's seem there is Google Chrome bug */
+        color: #002952;
   }
 }
 @-webkit-keyframes blink {
   0%, 100% {
-        color: #002952;
-        background-color: #F5AEE2;
+        background-color: #002952;
+        color: #aaa;
   }
   50% {
-        color: #002952; /* not #aaa because it's seem there is Google Chrome bug */
-        background-color: #002952;
+        background-color: #bbb;
+        color: #002952;
   }
 }
 @-ms-keyframes blink {
   0%, 100% {
-        background-color: #F5AEE2;
-        color: #F5AEE2;
+        background-color: #002952;
+        color: #aaa;
   }
   50% {
-        background-color: #002952; /* not #aaa because it's seem there is Google Chrome bug */
-        color: #F5AEE2;
+        background-color: #bbb;
+        color: #002952;
   }
 }
 @-moz-keyframes blink {
   0%, 100% {
-        background-color: #F5AEE2;
-        color: #F5AEE2;
+        background-color: #002952;
+        color: #aaa;
   }
   50% {
-        background-color: #002952; /* not #aaa because it's seem there is Google Chrome bug */
-        color: #F5AEE2;
+        background-color: #bbb;
+        color: #002952;
   }
 }
 .terminal .terminal-output div div, .cmd .prompt {
     display: block;
-    line-height: 20px;
+    line-height: 14px;
     height: auto;
 }
 .cmd .prompt {
@@ -89,14 +88,14 @@
 }
 .terminal, .cmd {
     font-family: FreeMono, monospace;
-    background-color: #002952;
     color: #F5AEE2;
-    font-size: 20px;
-    line-height: 20px;
+    background-color: #002952;
+    font-size: 12px;
+    line-height: 14px;
 }
 .terminal-output > div {
     /*padding-top: 3px;*/
-    min-height: 20px;
+    min-height: 14px;
 }
 .terminal .terminal-output div span {
     display: inline-block;
@@ -106,22 +105,22 @@
     /*display: inline-block; */
 }
 .terminal .inverted, .cmd .inverted, .cmd .cursor.blink {
-    color: #FFFFFF;
-    background-color: #F5AEE2;
+    background-color: #aaa;
+    color: #000;
 }
 .terminal .terminal-output div div::-moz-selection,
 .terminal .terminal-output div span::-moz-selection,
 .terminal .terminal-output div div a::-moz-selection {
-    color: #FFFFFF;
-    background-color: #F5AEE2;
+    background-color: #aaa;
+    color: #000;
 }
 .terminal .terminal-output div div::selection,
 .terminal .terminal-output div div a::selection,
 .terminal .terminal-output div span::selection,
 .cmd > span::selection,
 .cmd .prompt span::selection {
-    color: #FFFFFF;
-    background-color: #F5AEE2;
+    background-color: #aaa;
+    color: #000;
 }
 .terminal .terminal-output div.error, .terminal .terminal-output div.error div {
     color: red;
@@ -132,18 +131,7 @@
     left: 0;
     width: 100%;
     z-index: 1100;
-
 }
-
-.content{
-  text-align: center;
-  position: fixed;
-  font-family: 'Arvo', serif;
-  width: 100%;
-  margin:auto;
-  padding: 3%;
-}
-
 .clear {
     clear: both;
 }
@@ -152,4 +140,36 @@
 }
 .terminal a:hover {
     color: red;
+}
+
+.content{
+  font-family: FreeMono, monospace;
+  margin-top:200px;
+  padding:0;
+}
+
+.sub-content1{
+  text-align: center;
+  font-size: 15px;
+}
+
+.sub-content2{
+  font-size: 15px;
+  margin: 0px;
+  padding:  0px;
+}
+
+.sub-content3{
+  margin: 0px;
+  padding:  0px; 
+}
+
+.sub-content4{
+  font-size: 15px;
+  font-family: FreeMono, monospace;
+  margin: 0px;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
