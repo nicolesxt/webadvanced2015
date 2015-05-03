@@ -142,10 +142,13 @@
     color: red;
 }
 
+.html{
+  margin: 0;
+  padding: 0;
+}
 .content{
-  font-family: FreeMono, monospace;
   margin-top:200px;
-  padding:0;
+  font-family: FreeMono, monospace;
 }
 
 .sub-content1{
@@ -155,21 +158,45 @@
 
 .sub-content2{
   font-size: 15px;
-  margin: 0px;
-  padding:  0px;
+
 }
 
-.sub-content3{
-  margin: 0px;
-  padding:  0px; 
-}
 
 .sub-content4{
   font-size: 15px;
-  font-family: FreeMono, monospace;
   margin: 0px;
   padding: 5px;
   position: fixed;
   bottom: 0;
   right: 0;
+  font-family: FreeMono, monospace;s
+}
+
+.aka_title{
+  color:red;
+  /*standard size for displaying a project title*/
+  font-size: 40px;
+}
+
+.aka_imgs{
+  width: 80%;
+  display: block;
+  float: left;
+}
+
+.aka1{
+  display: block;
+  float: left;
+}
+.aka2{
+  display: block;
+  float: left;
+}
+.aka3{
+  display: block;
+  float: left;
+}
+.aka4{
+  display: block;
+  float: left;
 }
