@@ -147,8 +147,9 @@
   padding: 0;
 }
 .content{
-  margin-top:200px;
+  margin-top:150px;
   font-family: FreeMono, monospace;
+    color: #002952;
 }
 
 .sub-content1{
@@ -164,18 +165,25 @@
 
 .sub-content4{
   font-size: 15px;
-  margin: 0px;
+  margin: 20px;
   padding: 5px;
   position: fixed;
   bottom: 0;
   right: 0;
-  font-family: FreeMono, monospace;s
+  font-family: FreeMono, monospace;
+  color: #002952;
+  background-color:#FFFF75; 
 }
 
-.aka_title{
-  color:red;
-  /*standard size for displaying a project title*/
-  font-size: 40px;
+
+.sub-content4.blink{
+
+}
+
+
+.aka_description{
+  color:#002952;
+  font-size: 15px;
 }
 
 .aka_imgs{
@@ -185,18 +193,94 @@
 }
 
 .aka1{
+  height:120px;
+  width:160px;
   display: block;
   float: left;
 }
-.aka2{
+.category{
+background-color: #F5AEE2;
+padding: 0.7%;
+}
+.displayblock{
   display: block;
   float: left;
 }
-.aka3{
-  display: block;
+
+.is-hidden {
+  display: none;
+}
+
+.high5_1{
+  width: 40%;
+  text-align: center;
+  padding: auto;
+  margin-right: 20px;
+}
+
+.high5_2{
+  padding: 10px;
+  width: 30%;
+}
+
+.high5_3{
+  padding: 10px;
+    width: 30%;
+}
+
+.hoverr:hover{
+  background-color: #F5AEE2;
+}
+
+.hoverrr:hover{
+  background-color: #FFFF75;
+}
+
+.galaxy_description{
+  background-color: #FFFF75;
+}
+
+.geometry_description{
+  background-color: #FFFF75;
+}
+
+.works_question{
+  height: 500px;
+  width: 100%;
+}
+
+.question_title{
+  padding-left: 20px;
+  width: 25%;
+}
+
+.aka_imgs:hover{
+  background-color: #F5AEE2;
+}
+
+.aka_imgs{
+  padding: 20px;
+}
+
+.question_img{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 25%;
+    display: block;
   float: left;
 }
-.aka4{
+
+.question_description{
+  margin: auto;
+  font-size: 40px;
   display: block;
   float: left;
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+}
+
+.question_description:hover{
+  background-color: #F5AEE2;
 }
